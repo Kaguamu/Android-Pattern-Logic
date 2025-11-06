@@ -1,5 +1,3 @@
-// AndroidPattern.kt
-
 object AndroidPattern {
     // skip matrix: 0 means no skipping requirement
     private val skip = Array(10) { IntArray(10) }
@@ -35,4 +33,5 @@ object AndroidPattern {
     fun matches(stored: List<Int>, attempt: List<Int>): Boolean {
         return stored == attempt && isValidPattern(attempt)
     }
+
 }
