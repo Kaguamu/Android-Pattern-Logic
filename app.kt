@@ -1,5 +1,4 @@
 object AndroidPattern {
-    // skip matrix: 0 means no skipping requirement
     private val skip = Array(10) { IntArray(10) }
 
     init {
@@ -35,3 +34,4 @@ object AndroidPattern {
     }
 
 }
+
